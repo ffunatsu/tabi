@@ -171,6 +171,6 @@
 <rect x="609" y="104" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
   </g>
   <g transform="translate(430.0, 565)">
-    <text x="0" y="0" font-family="-apple-system, sans-serif" font-size="12.5px" text-anchor="middle"><tspan fill="#000000" font-weight="bold">黒字: 単打</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#e11d48" font-weight="bold">赤字: 中指同時シフト (D/K)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#15803d" font-weight="bold">緑゛: 濁音 (F/J)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#b45309" font-weight="bold">黄゜: 半濁音 (V/K)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#0284c7" font-weight="bold">青小: 小書き (L)</tspan></text>
+    <text x="0" y="0" font-family="-apple-system, sans-serif" font-size="12.5px" text-anchor="middle"><tspan fill="#000000" font-weight="bold">黒字: 単打</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#e11d48" font-weight="bold">赤字: 中指同時シフト (D/K)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#15803d" font-weight="bold">緑: 濁音 (F/J)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#b45309" font-weight="bold">黄: 半濁音 (V/K)</tspan><tspan fill="#475569">　│　</tspan><tspan fill="#0284c7" font-weight="bold">青: 小書き (L)</tspan></text>
   </g>
 </svg>

@@ -1,5 +1,7 @@
 # 足袋配列
 
+中指同時シフト、拗音拡張
+
 ![tabi](docs/tabi_layout_simple.svg)
 
 > [!Note]

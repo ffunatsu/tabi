@@ -1,6 +1,6 @@
 ﻿;足袋配列 (tabi_layout v2.2)
 ;やまぶきR 定義ファイル（UTF16-LEまたはShift-JISで保存しないと動きません。）
-;https://github.com/ffunatsu/tabi_layout
+;https://github.com/ffunatsu/tabi
 
 [配列]
 名称=足袋配列 (tabi_layout v2.2)

@@ -4,7 +4,7 @@
 
 ![tabi](docs/tabi_layout_simple.svg)
 
-[矢次配列](https://github.com/ffunatsu/yazgi_layout)から派生した配列で、打ちにくい単語をさらに少なくするために設計した配列です。
+[矢次配列](https://github.com/ffunatsu/yazgi_layout)から派生した配列で、打ちにくい単語をさらに少なくするために設計した配列です。（この配列設計のために作った[NeoJスコア](https://github.com/ffunatsu/neoj_script)を最適化する形で作りました。初期段階は機械最適化、その後手作業による修正を何度も繰り返して作っています。）
 
 原理上、どうしても打ちづらい単語は出てきてしまうので、よく打つ文章などによって相性があると思います。
 

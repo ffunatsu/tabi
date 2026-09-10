@@ -1300,10 +1300,10 @@
           },
           "to": [
             {
-              "key_code": "open_bracket"
+              "key_code": "close_bracket"
             },
             {
-              "key_code": "close_bracket"
+              "key_code": "backslash"
             },
             {
               "key_code": "left_arrow"

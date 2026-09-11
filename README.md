@@ -21,7 +21,7 @@
 
 ## v2.3 (dev)
 
-現行 ([mainブランチ](https://github.com/ffunatsu/tabi/tree/main)) のv2.2からの差分として、右下のスラッシュキーから「す」を移し、スラッシュキーを「わ」に変更しています。
+現行 ([mainブランチ](https://github.com/ffunatsu/tabi/tree/main)) のv2.2からの差分として、右下のスラッシュキーから「す」を移し、スラッシュキーの単打面を「わ」に変更しています。
 
 - `.`：す（F同時押し：ず）
 - `/`：わ

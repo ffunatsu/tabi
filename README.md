@@ -1,4 +1,6 @@
-# 足袋配列 <sub>(v2.4)</sub>
+# 足袋配列
+
+![version](http://img.shields.io/badge/version-v2.4-blue.svg?style=flat)
 
 中指同時シフト、拗音拡張（記号定義は新下駄配列と同じ）
 

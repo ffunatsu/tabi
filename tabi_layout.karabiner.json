@@ -1,9 +1,147 @@
 {
-  "title": "足袋配列 (tabi_layout v2.2)",
+  "title": "足袋配列 (tabi_layout v2.3 dev)",
   "rules": [
     {
-      "description": "足袋配列 (tabi_layout v2.2)",
+      "description": "足袋配列 (tabi_layout v2.3 dev)",
       "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "f"
+              },
+              {
+                "key_code": "comma"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "b"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "spacebar"
+              },
+              {
+                "key_code": "v"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "r"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "k"
+              },
+              {
+                "key_code": "v"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "r"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "basic",
           "from": {
@@ -1709,52 +1847,6 @@
               },
               {
                 "key_code": "period"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive"
-            }
-          },
-          "to": [
-            {
-              "key_code": "b"
-            },
-            {
-              "key_code": "u"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            },
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "language": "ja"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "f"
-              },
-              {
-                "key_code": "slash"
               }
             ],
             "simultaneous_options": {
@@ -7529,7 +7621,7 @@
           },
           "to": [
             {
-              "key_code": "r"
+              "key_code": "s"
             },
             {
               "key_code": "u"
@@ -7565,10 +7657,10 @@
           },
           "to": [
             {
-              "key_code": "s"
+              "key_code": "w"
             },
             {
-              "key_code": "u"
+              "key_code": "a"
             }
           ],
           "conditions": [

@@ -9,6 +9,1588 @@
           "from": {
             "simultaneous": [
               {
+                "key_code": "4"
+              },
+              {
+                "key_code": "o"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "4"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "5"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            },
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "5"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            },
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "5"
+              },
+              {
+                "key_code": "i"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            },
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "o"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "5"
+              },
+              {
+                "key_code": "o"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            },
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "5"
+              },
+              {
+                "key_code": "u"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            },
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "a"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "3"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "o"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "3"
+              },
+              {
+                "key_code": "i"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "o"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "o"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "3"
+              },
+              {
+                "key_code": "o"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "o"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "3"
+              },
+              {
+                "key_code": "u"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "o"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "a"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "4"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "4"
+              },
+              {
+                "key_code": "i"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "o"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "4"
+              },
+              {
+                "key_code": "u"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "d"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "a"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "t"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "t"
+              },
+              {
+                "key_code": "i"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "o"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "t"
+              },
+              {
+                "key_code": "u"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "e"
+            },
+            {
+              "key_code": "x"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "a"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "b"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "f"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "a"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "r"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "q"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "p"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "r"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "b"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "e"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "m"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "v"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "h"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "w"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "n"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "g"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "g"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "g"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "g"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "z"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "z"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "x"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "s"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "s"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "c"
+              },
+              {
+                "key_code": "semicolon"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "k"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "i"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "c"
+              },
+              {
+                "key_code": "quote"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "k"
+            },
+            {
+              "key_code": "y"
+            },
+            {
+              "key_code": "e"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
                 "key_code": "f"
               },
               {
@@ -5041,6 +6623,9 @@
               "key_code": "f"
             },
             {
+              "key_code": "y"
+            },
+            {
               "key_code": "a"
             }
           ],
@@ -5133,7 +6718,10 @@
               "key_code": "f"
             },
             {
-              "key_code": "i"
+              "key_code": "y"
+            },
+            {
+              "key_code": "u"
             }
           ],
           "conditions": [
@@ -5177,6 +6765,9 @@
           "to": [
             {
               "key_code": "f"
+            },
+            {
+              "key_code": "y"
             },
             {
               "key_code": "e"
@@ -5333,165 +6924,6 @@
             },
             {
               "key_code": "i"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            },
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "language": "ja"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "semicolon"
-              },
-              {
-                "key_code": "3"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive"
-            }
-          },
-          "to": [
-            {
-              "key_code": "t"
-            },
-            {
-              "key_code": "o"
-            },
-            {
-              "key_code": "x"
-            },
-            {
-              "key_code": "u"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            },
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "language": "ja"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "semicolon"
-              },
-              {
-                "key_code": "4"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive"
-            }
-          },
-          "to": [
-            {
-              "key_code": "d"
-            },
-            {
-              "key_code": "e"
-            },
-            {
-              "key_code": "x"
-            },
-            {
-              "key_code": "i"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            },
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "language": "ja"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "o"
-              },
-              {
-                "key_code": "4"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive"
-            }
-          },
-          "to": [
-            {
-              "key_code": "d"
-            },
-            {
-              "key_code": "e"
-            },
-            {
-              "key_code": "x"
-            },
-            {
-              "key_code": "y"
-            },
-            {
-              "key_code": "u"
             }
           ],
           "conditions": [

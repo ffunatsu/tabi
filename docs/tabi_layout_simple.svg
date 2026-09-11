@@ -141,7 +141,7 @@
 <rect x="512" y="0" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
       <text x="543.0" y="26.0" fill="#e11d48" font-family="Hiragino Kaku Gothic ProN, BIZ UDPGothic, Meiryo, sans-serif" font-size="23px" font-weight="bold" text-anchor="middle" dominant-baseline="central">ゆ</text>
 <rect x="574" y="0" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
-      <text x="605.0" y="26.0" fill="#e11d48" font-family="Hiragino Kaku Gothic ProN, BIZ UDPGothic, Meiryo, sans-serif" font-size="23px" font-weight="bold" text-anchor="middle" dominant-baseline="central">い</text>
+      
 <rect x="15" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
       <text x="46.0" y="78.0" fill="#000000" font-family="Hiragino Kaku Gothic ProN, BIZ UDPGothic, Meiryo, sans-serif" font-size="22px" font-weight="bold" text-anchor="middle" dominant-baseline="central">り</text>
 <rect x="77" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
@@ -156,6 +156,7 @@
 <rect x="465" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="2.8"/>
 <rect x="527" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
 <rect x="589" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+      <text x="620.0" y="78.0" fill="#e11d48" font-family="Hiragino Kaku Gothic ProN, BIZ UDPGothic, Meiryo, sans-serif" font-size="23px" font-weight="bold" text-anchor="middle" dominant-baseline="central">い</text>
 <rect x="651" y="52" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
       <text x="682.0" y="78.0" fill="#e11d48" font-family="Hiragino Kaku Gothic ProN, BIZ UDPGothic, Meiryo, sans-serif" font-size="23px" font-weight="bold" text-anchor="middle" dominant-baseline="central">え</text>
 <rect x="35" y="104" width="62" height="52" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>

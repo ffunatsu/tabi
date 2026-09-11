@@ -9,6 +9,52 @@
           "from": {
             "simultaneous": [
               {
+                "key_code": "f"
+              },
+              {
+                "key_code": "comma"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive"
+            }
+          },
+          "to": [
+            {
+              "key_code": "b"
+            },
+            {
+              "key_code": "u"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            },
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.apple\\.loginwindow$"
+              ]
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "ja"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
                 "key_code": "k"
               },
               {
@@ -7543,52 +7589,6 @@
             },
             {
               "key_code": "o"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "keyboard_type_if",
-              "keyboard_types": [
-                "jis"
-              ]
-            },
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.apple\\.loginwindow$"
-              ]
-            },
-            {
-              "type": "input_source_if",
-              "input_sources": [
-                {
-                  "language": "ja"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "f"
-              },
-              {
-                "key_code": "comma"
-              }
-            ],
-            "simultaneous_options": {
-              "key_down_order": "insensitive"
-            }
-          },
-          "to": [
-            {
-              "key_code": "b"
-            },
-            {
-              "key_code": "u"
             }
           ],
           "conditions": [

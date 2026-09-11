@@ -1,8 +1,8 @@
 {
-  "title": "足袋配列 (tabi_layout v2.3 dev)",
+  "title": "足袋配列 (tabi_layout v2.3)",
   "rules": [
     {
-      "description": "足袋配列 (tabi_layout v2.3 dev)",
+      "description": "足袋配列 (tabi_layout v2.3)",
       "manipulators": [
         {
           "type": "basic",
